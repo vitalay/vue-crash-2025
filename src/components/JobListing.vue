@@ -35,7 +35,7 @@ const truncatedDescription = computed(() => {
         <div>
           {{ truncatedDescription }}
         </div>
-       <button @click="toggleFullDescription" class="text-green-500" hover:text-green-600 >{{ showFullDescription ? 'Less' : 'More' }}</button>
+       <button @click="toggleFullDescription" class="text-green-500 hover:text-green-600 mb-5" >{{ showFullDescription ? 'Less' : 'More' }}</button>
 
       </div>
 
